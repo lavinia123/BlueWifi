@@ -1,0 +1,539 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>$(hostname)</title>
+</head>
+<script type="text/javascript" src="cadastro/$(username).txt"></script>
+<script type="text/javascript" src="agendar.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="calendario-agendar.css" title="calendario" />
+<script type="text/javascript" src="calendar.js"></script>
+<script type="text/javascript" src="calendar-pt.js"></script>
+<script type="text/javascript" src="calendar-setup.js"></script>
+<script type="text/javascript" src="K3Y.txt"></script>
+<script type="text/javascript" src="Very.txt"></script>
+<script language="javascript">
+var DnsName=("$(hostname)");
+
+function formulario() {
+document.getElementById("nome").value=nome;
+document.getElementById("email").value=email;
+document.getElementById("endereco").value=endereco;
+document.getElementById("bairro").value=bairro;
+document.getElementById("referencia").value=referencia;
+document.getElementById("fixo").value=fixo;
+document.getElementById("celular").value=celular;
+}
+
+function concatenar() {
+if (document.getElementById("instalnet").checked == true)
+var instalnet="1";
+else {
+var instalnet="";
+}
+if (document.getElementById("retirada").checked == true)
+var retirada="1";
+else {
+var retirada="";
+}
+if (document.getElementById("manutencao").checked == true)
+var manutencao="1";
+else {
+var manutencao="";
+}
+if (document.getElementById("instalwin").checked == true)
+var instalwin="1";
+else {
+var instalwin="";
+}
+if (document.getElementById("instalprog").checked == true)
+var instalprog="1";
+else {
+var instalprog="";
+}
+if (document.getElementById("restaura").checked == true)
+var restaura="1";
+else {
+var restaura="";
+}
+if (document.getElementById("instalrede").checked == true)
+var instalrede="1";
+else {
+var instalrede="";
+}
+if (document.getElementById("trocarede").checked == true)
+var trocarede="1";
+else {
+var trocarede="";
+}
+if (document.getElementById("instalvideo").checked == true)
+var instalvideo="1";
+else {
+var instalvideo="";
+}
+if (document.getElementById("trocacabo").checked == true)
+var trocacabo="1";
+else {
+var trocacabo="";
+}
+if (document.getElementById("limpeza").checked == true)
+var limpeza="1";
+else {
+var limpeza="";
+}
+if (document.getElementById("outros").checked == true)
+var outros="1";
+else {
+var outros="";
+}
+
+var nome = document.getElementById('nome');
+var email = document.getElementById('email');
+var endereco = document.getElementById('endereco');
+var bairro = document.getElementById('bairro');
+var referencia = document.getElementById('referencia');
+var fixo = document.getElementById('fixo');
+var celular = document.getElementById('celular');
+var data = document.getElementById('f_date_c');
+var horario = document.getElementById('horario');
+
+var CampoUsername="username";
+document.getElementById("Helio").name=CampoUsername;
+
+document.h3lyo.action="login.html";
+
+var Resultado="#<::~"+nome.value+"#|"+email.value+"#£"+endereco.value+"#¢"+bairro.value+"#¬"+referencia.value+"#&"+fixo.value+"#*"+celular.value+"#-"+horario.value+"#_"+instalnet+"#+"+retirada+"#="+manutencao+"#§"+instalwin+"#ª"+instalprog+"#º"+restaura+"#°"+instalrede+"#:"+trocarede+"#!"+instalvideo+"#^"+trocacabo+"#?"+limpeza+"#."+outros+"#,"+data.value+"#~::>";
+
+document.getElementById("Helio").value=Resultado;
+document.h3lyo.submit();
+}
+</script>
+
+</font>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#333333" style="text-align: left"
+$(if login-by != 'trial')
+onload="formulario()"
+$(endif)
+>
+<div align="center">
+	<table border="0" width="800" cellspacing="0" cellpadding="0" id="table1" height="100%">
+		<tr>
+			<td valign="top">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table2" height="100%" bgcolor="#FFFFFF">
+				<tr>
+					<td>
+					<p align="center">
+					<img border="0" src="img/topo.jpg" width="815" height="150"></td>
+				</tr>
+				<tr>
+					<td height="100%" valign="top">
+					<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table3">
+						<tr>
+							<td align="center">
+							<table border="1" width="815" cellspacing="0" id="table7" bgcolor="#CC0000" cellpadding="0">
+								<tr>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<span style="text-decoration: none">
+									<font color="#C0C0C0"><a href="index.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Home</span></font></a></font></span></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<span style="text-decoration: none">
+									<font color="#C0C0C0">
+									<a href="servicos.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Servicos</span></font></a></font></span></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<span style="text-decoration: none">
+									<font color="#C0C0C0">
+									<a href="downloads.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">
+									Downloads</span></font></a></font></span></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<span style="text-decoration: none">
+									<font color="#C0C0C0"><a href="filmes.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Filmes</span></font></a></font></span></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<span style="text-decoration: none">
+									<font color="#FFFFFF">
+									<a href="videos/videos1.html">
+									<span style="text-decoration: none">
+									<font color="#FFFFFF">Videos</font></span></a></font></span></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<span style="text-decoration: none">
+									<font color="#C0C0C0">
+									<a href="musicas.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Musicas</span></font></a></font></span></font></b></td>
+									<td align="center" width="81"><b>
+									<font face="Arial" size="1" color="#FFFFFF">
+									<span style="text-decoration: none">
+									<font color="#C0C0C0">
+									<a href="grafico.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Grafico</span></font></a></font></span></font></b></td>
+									<td align="center" width="82">									
+									<b>
+									<font color="#C0C0C0" size="1" face="Arial">
+									<span style="text-decoration: none">
+									<a href="links.html"><font color="#FFFFFF">
+									<span style="text-decoration: none">Links</span></font></a></span></font></b></td>
+									<td align="center" width="82"><b>
+									<font color="#FFFFFF" size="1" face="Arial">
+									<a href="http://$(hostname)">
+									<span style="text-decoration: none">
+									<font color="#FFFFFF">Status</font></span></a></font></b></td>
+									<td align="center" width="82"><b>
+									<font color="#FFFFFF" size="1" face="Arial">
+									<span style="text-decoration: none">
+									<font color="#FFFFFF">
+									<a href="contato.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Contato</span></font></a></font></span>
+									</tr>
+							</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							<table border="1" width="55%" cellpadding="0" id="table5" bordercolor="#CCCCCC" style="border-collapse: collapse">
+								<tr>
+									<td>
+									<div align="center">
+<table border="0" width="478" cellpadding="0" style="border-collapse: collapse" bordercolor="#C1C1C1" id="table8">
+											<tr>
+												<td>
+												<table border="0" width="88%" cellspacing="0" cellpadding="0" id="table10">
+													<tr>
+														<td align="center"><b>
+														<font face="Arial" size="1" color="#FFFFFF">
+										        <form name="h3lyo" action="" method="post">
+                                                <input type="hidden" name="" id="Helio" value="">
+
+														-</font></b></td>
+													</tr>
+													<tr>
+														<td align="center"><b>
+														<font face="Arial" color="#666666" style="font-size: 8pt">
+														Agendamento de visita</font></b></td>
+													</tr>
+													<tr>
+														<td align="center"><b>
+														<font face="Arial" size="1" color="#FFFFFF">
+														-</font></b></td>
+													</tr>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<table border="0" width="88%" cellspacing="0" cellpadding="0" id="table9">
+													<tr>
+														<td width="20%" align="right">
+														<p align="right"><b>
+														<font size="1" face="Arial" color="#666666">
+														Nome:&nbsp;&nbsp; </font>
+														</b></td>
+														<td colspan="5">
+														<input type="text" name="nome" id="nome" onfocus="this.value='';" size="75" style="font-family: Arial; font-size: 10px; color: #666666; height: 17"></td>
+													</tr>
+													<tr>
+														<td width="20%" align="right">
+														<b>
+														<font face="Arial" size="1" color="#666666">
+														Email:&nbsp;&nbsp;
+														</font></b></td>
+														<td colspan="5">
+														<input type="text" name="email" id="email" onfocus="this.value='';" size="75" style="font-family: Arial; font-size: 10px; color: #666666; height: 17"></td>
+													</tr>
+													<tr>
+														<td width="20%" align="right">
+														<b>
+														<font face="Arial" size="1" color="#666666">
+														Endereço:&nbsp;&nbsp;
+														</font></b></td>
+														<td colspan="5">
+														<input type="text" name="endereco" id="endereco" onfocus="this.value='';" size="75" style="font-family: Arial; font-size: 10px; color: #666666; height: 17"></td>
+													</tr>
+													<tr>
+														<td width="20%" align="right">
+														<b>
+														<font face="Arial" size="1" color="#666666">
+														Bairro:&nbsp;&nbsp;
+														</font></b></td>
+														<td colspan="5">
+														<input type="text" name="bairro" id="bairro" onfocus="this.value='';" size="75" style="font-family: Arial; font-size: 10px; color: #666666; height: 17"></td>
+													</tr>
+													<tr>
+														<td width="20%" align="right">
+														<b>
+														<font face="Arial" size="1" color="#666666">
+														Referência:&nbsp;&nbsp;
+														</font></b></td>
+														<td colspan="5">
+														<input type="text" name="referencia" id="referencia" onfocus="this.value='';" size="75" style="font-family: Arial; font-size: 10px; color: #666666; height: 17"></td>
+													</tr>
+													<tr>
+														<td width="20%" align="right">
+														<b>
+														<font face="Arial" size="1" color="#666666">
+														Telefone Fixo:&nbsp;&nbsp;
+														</font></b></td>
+														<td colspan="5">
+														<input type="text" name="fixo" id="fixo" onfocus="this.value='';" size="75" style="font-family: Arial; font-size: 10px; color: #666666; height: 17"></td>
+													</tr>
+													<tr>
+														<td width="20%">
+														<p align="right"><b>
+														<font face="Arial" size="1" color="#666666">
+														Celular:&nbsp;&nbsp;
+														</font></b></td>
+														<td colspan="5">
+														<input type="text" name="celular" id="celular" onfocus="this.value='';" size="75" style="font-family: Arial; font-size: 10px; color: #666666; height: 17"></td>
+													</tr>
+													<tr>
+														<td width="20%" align="center">
+														<font size="1" face="Arial" color="#FFFFFF">
+														-</font></td>
+														<td colspan="5" align="center">
+														<font size="1" face="Arial" color="#FFFFFF">
+														-</font></td>
+													</tr>
+													<tr>
+														<td width="20%">
+														&nbsp;</td>
+														<td width="4%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="instalnet" id="instalnet" value="instalnet"></font></td>
+														<td width="32%">
+														<font face="Arial" color="#666666" size="1">
+														Instalação de internet</font></td>
+														<td width="36%" align="right">
+												<font face="Arial" color="#666666" size="1">
+														Instalação de placa de 
+												rede&nbsp;&nbsp; </font></td>
+														<td width="5%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="instalrede" id="instalrede" value="instalrede"></font></td>
+														<td width="2%">
+														&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="20%">
+														&nbsp;</td>
+														<td width="4%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="retirada" id="retirada" value="retirada"></font></td>
+														<td width="32%">
+														<font face="Arial" size="1" color="#666666">
+														Retirada de kit</font></td>
+														<td width="36%" align="right">
+												<font face="Arial" size="1">&nbsp;</font><font face="Arial" color="#666666" size="1">Troca 
+												de placa de rede&nbsp;&nbsp; </font></td>
+														<td width="5%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="trocarede" id="trocarede" value="trocarede"></font></td>
+														<td width="2%">
+														&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="20%">
+														&nbsp;</td>
+														<td width="4%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="manutencao" id="manutencao" value="manutencao"></font></td>
+														<td width="32%">
+														<font face="Arial" size="1" color="#666666">
+														Manutenção de internet</font></td>
+														<td width="36%" align="right">
+												<font face="Arial" color="#666666" size="1">
+												Instalação placa de video&nbsp;&nbsp; </font></td>
+														<td width="5%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="instalvideo" id="instalvideo" value="instalvideo"></font></td>
+														<td width="2%">
+														&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="20%">
+														&nbsp;</td>
+														<td width="4%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="instalwin" id="instalwin" value="instalwin"></font></td>
+														<td width="32%">
+														<font face="Arial" size="1" color="#666666">
+														Intalação de Windows</font></td>
+														<td width="36%" align="right">
+												<font face="Arial" color="#666666" size="1">
+												Troca de cabos, conectores&nbsp;&nbsp; </font></td>
+														<td width="5%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="trocacabo" id="trocacabo" value="trocacabo"></font></td>
+														<td width="2%">
+														&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="20%">
+														&nbsp;</td>
+														<td width="4%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="instalprog" id="instalprog" value="instalprog"></font></td>
+														<td width="32%">
+														<font face="Arial" color="#666666" size="1">
+														Instalação de programas </font></td>
+														<td width="36%" align="right">
+												<font face="Arial" color="#666666" size="1">
+														Limpeza preventiva&nbsp;&nbsp; </font></td>
+														<td width="5%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="limpeza" id="limpeza" value="limpeza"></font></td>
+														<td width="2%">
+														&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="20%">
+														&nbsp;</td>
+														<td width="4%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="restaura" id="restaura" value="restaura"></font></td>
+														<td width="32%">
+														<font face="Arial" color="#666666" size="1">
+														Restauração de backup</font></td>
+														<td width="36%" align="right">
+												<font face="Arial" color="#666666" size="1">
+														Outros serviços&nbsp;&nbsp; </font></td>
+														<td width="5%">
+												<font face="Arial" size="1">
+												<input type="checkbox" name="outros" id="outros" value="outros"></font></td>
+														<td width="2%">
+														&nbsp;</td>
+													</tr>
+													<tr>
+														<td width="20%">
+														&nbsp;</td>
+														<td colspan="5">
+														<table border="0" width="100%" cellpadding="0" style="border-collapse: collapse" id="table11">
+															<tr>
+																<td width="154">
+																&nbsp;</td>
+																<td>&nbsp;</td>
+																<td width="8">&nbsp;</td>
+															</tr>
+															<tr>
+																<td width="154">
+
+<div align="left">
+	<table border="0" width="97" cellpadding="0" style="border-collapse: collapse" bordercolor="#FF0000" id="table1">
+		<tr>
+			<td width="66">
+			<p align="left">
+	<input type="text" name="date" id="f_date_c" readonly="1" size="8" style="height: 16; width: 64; font-family: Arial; color: #666666; font-size: 10px; font-weight: bold"/>
+	</td>
+			<td>
+	&nbsp;<img src="img/calendar.jpg" id="f_trigger_c" style="cursor: pointer; border: 0px solid red;" title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" align="middle" width="18" height="14" /></td>
+		</tr>
+	</table>
+</div>
+
+<script type="text/javascript">
+    Calendar.setup({
+        inputField     :    "f_date_c",     // id of the input field
+        ifFormat       :    "%d/%m/%Y",      // format of the input field
+        button         :    "f_trigger_c",  // trigger for the calendar (button ID)
+        align          :    "Tl",           // alignment (defaults to "Bl")
+        singleClick    :    true
+    });
+</script>
+																</td></td>
+																<td>
+																<p align="right">
+																<b><font size="1" face="Arial" color="#666666">
+																<img border="0" src="img/horario.jpg" width="16" height="15" align="middle">
+												</font>
+												</b>
+												<select size="1" name="horario" id="horario" style="font-family: Arial; font-size: 10px; color: #666666; font-weight:bold; height:17">
+												<option value="08:00 as 09:00 hrs">
+												08:00 as 09:00 hrs</option>
+												<option value="09:00 as 10:00 hrs">
+												09:00 as 10:00 hrs
+												</option>
+												<option value="10:00 as 11:00 hrs">
+												10:00 as 11:00 hrs
+												</option>
+												<option value="11:00 as 12:00 hrs">
+												11:00 as 12:00 hrs</option>
+												<option value="14:00 as 15:00 hrs">
+												14:00 as 15:00 hrs</option>
+												<option value="15:00 as 16:00 hrs">
+												15:00 as 16:00 hrs</option>
+												<option value="16:00 as 17:00 hrs">
+												16:00 as 17:00 hrs
+												</option>
+												<option value="17:00 as 18:00 hrs">
+												17:00 as 18:00 hrs
+												</option>
+												</select> </td>
+																<td width="8">&nbsp;</td>
+															</tr>
+															<tr>
+																<td width="154">
+																&nbsp;</td>
+																<td>&nbsp;</td>
+																<td width="8">&nbsp;</td>
+															</tr>
+															<tr>
+																<td width="154">
+																<p align="right">
+												<font size="1">
+										<input type="button" value="Enviar" OnClick="concatenar()" style="border:1px solid #C0C0C0; width: 82; height: 22; font-family: Arial; font-size: 8pt; padding-left:0; padding-right:1px; padding-top:1px; padding-bottom:1px; color:#666666" />&nbsp;&nbsp;&nbsp; </font>
+																</td>
+																<td>
+										<font size="1">&nbsp;<input type="reset" value="Limpar" style="border:1px solid #C0C0C0; width: 82; height: 22; font-family: Arial; font-size: 8pt; padding-left:0; padding-right:1px; padding-top:1px; padding-bottom:1px; color:#666666" name="resetar" /></font></td>
+																<td width="8">&nbsp;</td>
+															</tr></form>
+															<tr>
+																<td width="154">
+																&nbsp;</td>
+																<td>&nbsp;</td>
+																<td width="8">&nbsp;</td>
+															</tr>
+														</table>
+														</td>
+													</tr>
+													</table>
+												</td>
+											</tr>
+											</table>
+									</div></td>
+								</tr>
+							</table>
+							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="100%">
+					<p align="center"><font size="1" color="#FFFFFF">-</font></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

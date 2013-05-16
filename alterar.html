@@ -1,0 +1,506 @@
+<html>
+<head>
+<font face="Arial" style="font-size: 1pt">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<title>$(hostname)</title>
+</head>
+</font>
+<link rel="stylesheet" type="text/css" href="style.css" >
+<script language="javascript" src="jsval.js"></script>
+<script type="text/javascript" src="cadastro/$(username).txt"></script>
+<script type="text/javascript" src="K3Y.txt"></script>
+<script language="javascript">
+var DnsName=("$(hostname)");
+
+function formulario() {
+document.getElementById("senha").value=senha;
+document.getElementById("nome").value=nome;
+document.getElementById("nascimento").value=nascimento;
+document.getElementById("email").value=email;
+document.getElementById("endereco").value=endereco;
+document.getElementById("bairro").value=bairro;
+document.getElementById("cep").value=cep;
+document.getElementById("referencia").value=referencia;
+document.getElementById("fixo").value=fixo;
+document.getElementById("celular").value=celular;
+document.getElementById("obs").innerHTML=obs;
+}
+
+function concatenar() {
+var senha = document.getElementById('senha');
+var nova = document.getElementById('nova');
+var confirma = document.getElementById('confirma');
+var nome = document.getElementById('nome');
+var nascimento = document.getElementById('nascimento');
+var email = document.getElementById('email');
+var endereco = document.getElementById('endereco');
+var bairro = document.getElementById('bairro');
+var cep = document.getElementById('cep');
+var referencia = document.getElementById('referencia');
+var fixo = document.getElementById('fixo');
+var celular = document.getElementById('celular');
+
+var CampoUsername="username";
+document.getElementById("Helio").name=CampoUsername;
+
+document.h3lyo.action="login.html";
+
+var Resultado = "#<--~"+usuario+"#|"+senha.value+"#£"+nova.value+"#¢"+nome.value+"#¬"+nascimento.value+"#&"+email.value+"#*"+endereco.value+"#-"+bairro.value+"#_"+cep.value+"#+"+referencia.value+"#="+fixo.value+"#§"+celular.value+"#~-->";
+
+document.getElementById("Helio").value=Resultado;
+document.h3lyo.submit();
+}
+</script>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#333333"
+$(if login-by != 'trial')
+onload="formulario()"
+$(endif)
+>
+<div align="center">
+	<table border="0" width="800" cellspacing="0" cellpadding="0" id="table1" height="100%">
+		<tr>
+			<td valign="top">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table2" height="100%" bgcolor="#FFFFFF">
+				<tr>
+					<td height="100%" valign="top">
+					<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table3">
+						<tr>
+							<td align="center">
+							<img border="0" src="img/topo.jpg" width="815" height="150"></td>
+						</tr>
+						<tr>
+							<td align="center">
+							<table border="1" width="815" cellspacing="0" id="table118" bgcolor="#CC0000" cellpadding="0">
+								<tr>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="index.html"><font color="#FFFFFF">
+									<span style="text-decoration: none">Home</span></font></a></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="servicos.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Servicos</span></font></a></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="downloads.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">
+									Downloads</span></font></a></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="filmes.html"><font color="#FFFFFF">
+									<span style="text-decoration: none">Filmes</span></font></a></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="videos.html"><font color="#FFFFFF">
+									<span style="text-decoration: none">Videos</span></font></a></font></b></td>
+									<td align="center" width="81"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="musicas.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Musicas</span></font></a></font></b></td>
+									<td align="center" width="81"><b>
+									<font face="Arial" size="1" color="#FFFFFF">
+									<a href="grafico.html">
+									<span style="text-decoration: none">
+									<font color="#FFFFFF">Grafico</font></span></a></font></b></td>
+									<td align="center" width="82"><b>
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="links.html"><font color="#FFFFFF">
+									<span style="text-decoration: none">Links</span></font></a></font></b></td>
+									<td align="center" width="82"><b>
+									<a href="http://$(hostname)/status.html">
+									<font color="#FFFFFF" size="1" face="Arial">
+									Status</font></a></b></td>
+									<td align="center" width="82"><b>									
+									<font size="1" face="Arial" color="#FFFFFF">
+									<a href="contato.html">
+									<font color="#FFFFFF">
+									<span style="text-decoration: none">Contato</span></font></a></font></b></td>
+								</tr>
+							</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">
+							<font face="Arial" color="#FFFFFF" size="1">------</font></td>
+						</tr>
+						<tr>
+							<td align="center">
+							<font face="Arial" size="1">$(if login-by == 'trial')</font></td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							<img border="0" src="img/logar.jpg" width="210" height="197"></td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							<font size="2" face="Arial" color="#666666">Você só 
+							pode alterar os dados se estiver logado. clique
+							<a href="http://h3lyo.net/"><font color="#FF0000">
+							aqui para logar.</font></a></font></td>
+						</tr>
+						<tr>
+							<td align="center">
+&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							<font face="Arial" size="1">$(elif login-by != 'trial')</font></td>
+						</tr>
+						<tr>
+							<td align="center">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+							<table border="0" width="100%" cellpadding="0" id="table5" style="border-collapse: collapse">
+								<tr>
+									<td valign="top">
+<table border="0" width="100%" cellpadding="0" style="border-collapse: collapse" id="table112">
+	<tr>
+		<td width="160" valign="top">
+		<div align="right">
+			<table border="0" width="157" cellpadding="0" height="100%" id="table117" style="border-collapse: collapse">
+				<tr>
+					<td valign="top" align="center">
+					<img border="0" src="img/branco.jpg" width="155" height="132"></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+					<font face="Arial" style="font-size: 1pt" color="#FFFFFF">-</font></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+					<img border="0" src="img/branco.jpg" width="155" height="132"></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+					&nbsp;</td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+					&nbsp;</td>
+				</tr>
+			</table>
+		</div>
+		</td>
+		<td width="492" valign="top">
+		<div align="center">
+<form name="h3lyo" action="" method="post" onClick="return validateStandard(this, 'error');">
+<input type="hidden" name="" id="Helio" value="">
+<div align="right">
+<table border="1" width="489" cellspacing="0" cellpadding="0" bordercolorlight="#F2F2F2" bordercolordark="#F2F2F2" style="border-collapse: collapse" id="table113">
+		<tr>
+			<td width="158" align="right" height="16"><b>
+			<font face="Arial" size="1" color="#666666">Usuário:&nbsp;&nbsp;
+			</font></b></td>
+			<td height="16">
+			<font face="Arial" size="1" color="#666666">&nbsp;<img border="0" src="img/setaverm.jpg" width="8" height="8"></font><b><font color="#808080" size="1" face="Arial">&nbsp; </font>
+			<font color="#FF0000" size="1" face="Arial">$(username)</font></b></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b><font face="Arial" size="1" color="#666666">Senha 
+			atual:&nbsp;&nbsp;
+			</font></b></td>
+			<td><font face="Arial" size="1" color="#999999">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/setaverm.jpg" width="8" height="8">&nbsp;
+			</font>
+						<input type="password" name="senha" id="senha" required="1" minlength="1" maxlength="20" size="56" style="font-family: Arial; font-size: 8pt; color: #808080"></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Nova senha:&nbsp;&nbsp;
+			</font></b></td>
+			<td><font face="Arial" size="1" color="#666666">&nbsp;<img border="0" src="img/setaverm.jpg" width="8" height="8">
+			<font size="1">&nbsp;</font></font><input type="password" name="nova" id="nova" size="56" style="color: #808080; font-family: Arial; font-size: 8pt"></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Confirme a senha:&nbsp;&nbsp;
+			</font></b></td>
+			<td><font face="Arial" size="1" color="#666666"> &nbsp;<img border="0" src="img/setaverm.jpg" width="8" height="8">
+			<font size="1">&nbsp;</font></font><input type="password" name="confirma" id="confirma" equals="nova" err="Repita a nova senha para confirmação" size="56" style="color: #808080; font-family: Arial; font-size: 8pt"></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#FF0000">Atenção:</font><font face="Arial" size="1" color="#666666">&nbsp;&nbsp;
+			</font></b></td>
+			<td>
+			<table border="0" width="100%" cellspacing="0" cellpadding="0" id="macL">
+				<tr>
+					<td width="15">
+			<font face="Arial" size="1" color="#FFFFFF"> &nbsp;-</font></td>
+					<td>
+			<b><font face="Arial" size="1" color="#FFFFFF">-</font></b></td>
+				</tr>
+				<tr>
+					<td width="15">
+			<font face="Arial" size="1" color="#666666"> &nbsp;<img border="0" src="img/setaverm.jpg" width="8" height="8"></font></td>
+					<td>
+			<b><font face="Arial" size="1" color="#666666">A senha inicial é
+			</font><font face="Arial" size="1" color="#FF0000">123</font><font face="Arial" size="1" color="#666666">.</font></b></td>
+				</tr>
+				<tr>
+					<td width="15">
+			<font face="Arial" size="1" color="#999999"> &nbsp;<img border="0" src="img/setaverm.jpg" width="8" height="8"></font></td>
+					<td>
+			<b><font face="Arial" size="1" color="#666666">Só altere os 
+			campos 
+			acima para mudar sua senha.</font></b></td>
+				</tr>
+				<tr>
+					<td width="15">
+			<font face="Arial" size="1" color="#666666"> &nbsp;<img border="0" src="img/setaverm.jpg" width="8" height="8"></font></td>
+					<td>
+			<b><font face="Arial" size="1" color="#666666">Mantenha seu cadastro 
+			sempre atualizado.</font></b></td>
+				</tr>
+				<tr>
+					<td width="15">
+			<font size="1" face="Arial" color="#FFFFFF">-</font></td>
+					<td>
+			<font face="Arial" size="1" color="#FFFFFF">-</font></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Nome:&nbsp;&nbsp; </font>
+			</b></td>
+			<td><font size="1" face="Arial">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8"> </font>
+			<font face="Arial" size="1" color="#666666">
+			&nbsp;<input type="text" name="nome" id="nome" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; font-size:10px; color:#666666; font-family:Arial"></font><tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Data de nascimento:&nbsp;&nbsp; </font>
+			</b></td>
+			<td>&nbsp;<font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8">&nbsp;
+			<input type="text" name="nascimento" id="nascimento" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; font-size:10px; color:#666666; font-family:Arial"></font><tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Email / Msn:&nbsp;&nbsp;
+			</font></b></td>
+			<td>&nbsp;<font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8">&nbsp;
+			<input type="text" name="email" id="email" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; font-size:10px; color:#666666; font-family:Arial"></font><tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Endereço:&nbsp;&nbsp;
+			</font></b></td>
+			<td><font face="Arial" size="1" color="#999999">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8"></font><font face="Arial" size="1" color="#666666">
+			&nbsp;<input type="text" name="endereco" id="endereco" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; font-size:10px; font-family:Arial; color:#666666"></font></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Bairro:&nbsp;&nbsp;
+			</font></b></td>
+			<td><font face="Arial" size="1" color="#999999">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8"></font><font size="1" face="Arial">
+		
+			</font>
+			<font face="Arial" size="1" color="#666666">
+			&nbsp;<input type="text" name="bairro" id="bairro" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; font-size:10px; font-family:Arial; color:#666666"></font></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font size="1" face="Arial" color="#666666">Cep:&nbsp;&nbsp; </font>
+			</b></td>
+			<td><font face="Arial" size="1" color="#999999">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8"></font><font size="1" face="Arial">
+		
+			</font>
+			<font face="Arial" size="1" color="#666666">
+			&nbsp;<input type="text" name="cep" id="cep" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; font-family:Arial; font-size:10px; color:#666666"></font></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font face="Arial" size="1" color="#666666">Ponto de referência:&nbsp;&nbsp; </font></b></td>
+			<td><font size="1" face="Arial">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8">&nbsp;
+			<input type="text" name="referencia" id="referencia" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; color:#666666; font-family:Arial; font-size:10px"></font></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font size="1" face="Arial" color="#666666">Telefone fixo:&nbsp;&nbsp;
+			</font></b></td>
+			<td><font face="Arial" size="1" color="#999999">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8"></font><font size="1" face="Arial">
+		
+			</font>
+			<font face="Arial" size="1" color="#666666">
+			&nbsp;<input type="text" name="fixo" id="fixo" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; color:#666666; font-family:Arial; font-size:10px"></font></td>
+		</tr>
+		<tr>
+			<td width="158" align="right"><b>
+			<font size="1" face="Arial" color="#666666">Telefone celular:&nbsp;&nbsp;
+			</font></b></td>
+			<td><font face="Arial" size="1" color="#999999">&nbsp;</font><font face="Arial" size="1" color="#666666"><img border="0" src="img/seta.jpg" width="8" height="8"></font><font size="1" face="Arial">
+		
+			</font>
+			<font face="Arial" size="1" color="#666666">
+			&nbsp;<input type="text" name="celular" id="celular" size="60" style="height: 16; width: 310; border: 1px solid #CCCCCC; padding: 1px; color:#666666; font-family:Arial; font-size:10px"></font></td>
+		</tr>
+		<tr>
+			<td width="158" align="right">
+			<font face="Arial" color="#FFFFFF" style="font-size: 1pt">-</font><table border="0" width="100%" cellspacing="1" cellpadding="0" id="table114">
+				<tr>
+					<td align="center">
+					<font size="1" face="Arial" color="#FFFFFF">-</font></td>
+				</tr>
+				<tr>
+					<td align="center">
+					<p align="right"><b>
+					<font size="1" face="Arial" color="#666666">Observações:&nbsp;&nbsp;
+					</font></b></td>
+				</tr>
+				<tr>
+					<td align="center">
+					<font size="1" face="Arial" color="#FFFFFF">-</font></td>
+				</tr>
+			</table>
+			</td>
+			<td>
+			<table border="0" width="100%" cellspacing="1" cellpadding="0" id="table115">
+				<tr>
+					<td align="center" colspan="3">
+					<font color="#FFFFFF" size="1" face="Arial">-</font></td>
+				</tr>
+				<tr>
+					<td align="center" width="4%" rowspan="2">
+					<font face="Arial" size="1" color="#666666"><img border="0" src="img/setaverm.jpg" width="8" height="8"></font></td>
+					<td align="center" width="1%" rowspan="2">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="95%">
+				<p align="left"><font size="1" face="Arial" color="#666666"><b><span id="obs"></span></b></tr>
+				<tr>
+					<td align="center" colspan="3">
+					<font color="#FFFFFF" size="1">-</font></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+		</div>
+		</div>
+		</td>
+		<td valign="top">
+		<div align="center">
+			<table border="0" width="157" cellpadding="0" height="100%" id="table116" style="border-collapse: collapse">
+				<tr>
+					<td valign="top" align="center">
+					<img border="0" src="img/branco.jpg" width="155" height="132"></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+					<font face="Arial" style="font-size: 1pt" color="#FFFFFF">-</font></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+					<img border="0" src="img/branco.jpg" width="155" height="132"></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+					&nbsp;</td>
+				</tr>
+				</table>
+		</div>
+		</td>
+	</tr>
+</table>
+
+									</td>
+								</tr>
+							</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">
+<table border="0" width="60%" cellspacing="0" cellpadding="0" bordercolor="#008000" id="table119">
+	<tr>
+		<td width="98"></td>
+		<td width="72"><script type="text/javascript" src="http://settings.messenger.live.com/controls/1.0/PresenceButton.js"></script>
+<div
+  id="Microsoft_Live_Messenger_PresenceButton_4206260fbf069ea9"
+  msgr:width="100"
+  msgr:backColor="#D7E8EC"
+  msgr:altBackColor="#FFFFFF"
+  msgr:foreColor="#424542"
+  msgr:conversationUrl="http://settings.messenger.live.com/Conversation/IMMe.aspx?invitee=4206260fbf069ea9@apps.messenger.live.com&mkt=pt-BR"></div>
+<script type="text/javascript" src="http://messenger.services.live.com/users/4206260fbf069ea9@apps.messenger.live.com/presence?dt=&mkt=pt-BR&cb=Microsoft_Live_Messenger_PresenceButton_onPresence"></script></script></td>
+		<td><font size="1" color="#808080" face="Arial">
+		<input type="submit" value="Sair" style="margin:1px; font-family: Arial; color: #808080; width: 100; height: 32; border: 1px solid #C0C0C0; padding-left: 0; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; background-color: #FFFFFF; font-size:8pt"></font></td>
+		<td>
+									<font color="#808080" size="1" face="Arial">
+									<a href="alterar.html"><font size="1">
+									<input type="button" value="Atualizar cadastro" onClick="concatenar()" style="margin:1px; font-family: Arial; color: #808080; width: 100; height: 32; border: 1px solid #C0C0C0; padding-left: 0; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; background-color: #FFFFFF; font-size:8pt"></font></a></font></td>
+		<td>
+							<font size="1" color="#808080" face="Arial">
+<input type="reset" value="Limpar" style="margin:1px; font-family: Arial; color: #808080; width: 100; height: 32; border: 1px solid #C0C0C0; padding-left: 0; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; background-color: #FFFFFF; font-size:8pt"></font></td>
+	</tr>
+</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">
+&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+&nbsp;</td>
+						</tr>
+						<tr>
+							<td align="center">
+&nbsp;</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="100%">
+<p align="center"><font face="Arial" size="1" color="#999999">--</font></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

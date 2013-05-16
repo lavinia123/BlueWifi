@@ -1,0 +1,2 @@
+var kmk="QTHF-ZHWU";
+var mkm="h3lyo.net";

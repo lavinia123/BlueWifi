@@ -1,0 +1,23 @@
+#####################################################
+VISITA AGENDADA PARA O DIA 19/08/2011
+HORARIO:08:00 as 09:00 hrs
+#####################################################
+
+NOME:Helio Rodrigues de Carvalho Filho
+EMAIL:h3lyo@hotmail.com
+ENDERECO:Av. Goias nr 500
+BAIRRO:Centro
+REFERENCIA:Proximo a Av. Tocantins
+TELEFONE FIXO:(62) 3213 0000
+TEL. CELULAR:(62) 9318 0000
+
+#####################################################
+
+SERVIÇOS SOLICITADOS:
+
+Instalacao de Sistema Operacional
+Restauracao de Sistema Operacional
+Outros servicos
+
+#####################################################
+//--> Mensagem gerada dia 10/08/2011 as 03:46:56 hrs.

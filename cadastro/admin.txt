@@ -1,0 +1,32 @@
+var usuario="admin";
+var senha="123";
+var ip="192.168.88.10";
+var mac="00:90:F5:90:62:EF";
+var profile="xFULL";
+var venc="08";
+var aviso="11";
+var bloqueio="13";
+var valor="R$ 300,00";
+var email="h3lyo@hotmail.com";
+var nome="Helio Rodrigues de Carvalho Filho";
+var nascimento="10/08/1974";
+var endereco="Av. Goias nr 500";
+var bairro="Centro";
+var cep="74000-000";
+var referencia="Proximo a Av. Tocantins";
+var fixo="(62) 3213 0000";
+var celular="(62) 9318 0000";
+var instal="08/08/2011 às 14:10:45 hrs.";
+var contratado="xFULL";
+var kit="";
+var equip="";
+var obs="";
+var ola="PARABÊNS admin, hoje é seu aniversário.<br>Muitas Felicidades pra você.";
+var erro="";
+var ok="";
+
+/*
+
+Cadastro alterado em 10/08/2011 às 03:45:25 hrs.
+
+*/

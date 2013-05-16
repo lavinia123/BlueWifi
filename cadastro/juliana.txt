@@ -1,0 +1,32 @@
+var usuario="juliana";
+var senha="123";
+var ip="192.168.88.22";
+var mac="";
+var profile="9M";
+var venc="10";
+var aviso="13";
+var bloqueio="15";
+var valor="R$ 250,00";
+var email="";
+var nome="";
+var nascimento="";
+var endereco="";
+var bairro="";
+var cep="";
+var referencia="";
+var fixo="";
+var celular="";
+var instal="10/08/2011 às 01:06:48 hrs.";
+var contratado="9M";
+var kit="";
+var equip="";
+var obs="";
+var ola="";
+var erro="";
+var ok="";
+
+/*
+
+Cadastro alterado em 10/08/2011 às 03:45:24 hrs.
+
+*/
