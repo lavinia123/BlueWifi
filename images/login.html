@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Advanced IT Support</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="page1">
+	<div class="tall_top">
+		<div class="tall_bottom">
+			<div id="main">
+				<div id="main_width">
+					<!-- header -->
+					<div id="header">
+						<div class="row_1">
+							<div><!--Valid flash version 8.0-->
+							<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+									  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+									  width="971" height="51">
+							 <param name="movie" value="flash/header1_v8.swf?button=1" /> 
+							 <param name="quality" value="high" />
+							 <param name="menu" value="false" />
+							 <!--[if !IE]> <-->
+							 <object data="flash/header1_v8.swf?button=1"
+										width="971" height="51" type="application/x-shockwave-flash">
+							  <param name="quality" value="high" />
+							  <param name="menu" value="false" />
+							  <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+							  FAIL (the browser should render some flash content, not this).
+							 </object>
+							 <!--> <![endif]-->
+							</object></div>
+						</div>
+						<div class="row_2">
+							<div><!--Valid flash version 8.0-->
+							<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+									  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+									  width="980" height="320">
+							 <param name="movie" value="flash/header4_v8.swf" /> 
+							 <param name="quality" value="high" />
+							 <param name="menu" value="false" />
+							 <!--[if !IE]> <-->
+							 <object data="flash/header4_v8.swf"
+										width="980" height="320" type="application/x-shockwave-flash">
+							  <param name="quality" value="high" />
+							  <param name="menu" value="false" />
+							  <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+							  FAIL (the browser should render some flash content, not this).
+							 </object>
+							 <!--> <![endif]-->
+							</object></div>
+						</div>
+					</div>
+					<!-- content -->
+					<div id="content">
+                      <div class="wrapper">
+                        <div class="clear">
+                        <div id="center" style="width: 544px; height: 373px">
+
+<div id=script>
+$(if chap-id)
+	<form name="sendin" action="$(link-login-only)" method="post">
+		<input type="hidden" name="username">
+		<input type="hidden" name="password">
+		<input type="hidden" name="dst" value="$(link-orig)">
+
+		<input type="hidden" name="popup" value="true">
+	</form>
+	<script language="JavaScript" src="/md5.js">
+	</script>
+	<script language="JavaScript">
+	<!--
+	    function doLogin() {
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.submit();
+		return false;
+	    }
+	//-->
+	</script>
+$(endif)
+</div>
+
+		$(if error)
+		<p class="align-center">$(error)</p>$(endif) 
+<form name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif)>
+	<input type="hidden" name="dst" value="$(link-orig)">
+	<input type="hidden" name="popup" value="true">
+	<p><label>Usuário:</label>
+	<input name="username" value="$(username)" type="text" size="34" /> <label>Senha:</label>
+	<input name="password" value="" type="password" size="33" /> </p>
+	<p class="align-center">Digite sempre seu e-mail com letras minúsculas<br /></p>
+	<p class="align-center"><input class="button" type="submit" value="Entrar"/>
+	</p>
+</form><p style="text-align: center">
+<br />	
+			
+		</div></div>
+                      </div>
+				  </div>
+				  <!-- footer -->
+	  <div id="footer">
+						<p>Gorgeous Global Group (c) 2008 | <a href="index-6.html">Privacy policy</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

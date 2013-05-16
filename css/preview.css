@@ -1,0 +1,47 @@
+
+#theme-options
+{
+	width: 100px;
+	font-size: 11px;
+	position: fixed;
+	left: 15px;
+	bottom: -0px;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	display: none;
+}
+
+#theme-options, #theme-options a { color: #FFF; }	
+	
+#theme-options a { display: block; }
+
+
+#to-tab
+{
+	background: #000;
+	width: 40px;
+	color: #FFF;
+	padding: 5px 5px 0;
+	font-weight: bold;
+	height: 25px;
+	cursor: pointer;
+	-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+#options-display
+{
+background: #000;
+padding: 10px;
+/* display: none; */
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;
+position: relative;
+}

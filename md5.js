@@ -1,15 +1,3 @@
-/*function Br(){
-var Cont = document.all.mensagem.value
-
-if(event.keyCode == 40){
-document.all.mensagem.value = Cont + '<br>' 
-}
-
-}
-*/
-
-
-
 /*
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
  * Digest Algorithm, as defined in RFC 1321.

@@ -1,0 +1,64 @@
+#main {width:100%; margin:0 auto; text-align:center; min-width:1003px; width:expression(((document.documentElement.clientWidth || document.body.clientWidth) < 1003)? "1003px" : "100%");}
+
+/*----!!!-----*/
+#main_width { width:100%; margin:0 auto; text-align:left;}
+/*----!!!-----*/
+
+/*You can modify the width of the website by changing "width" parameter with #main_width. The minimum value is 1003px.*/
+
+#header {height:371px;}
+#header, #content, #footer { font-size:0.69em;}
+
+.col_1, .col_2, .col_3, .column1, .column2, .column3 { float:left;}
+
+/*======= index.html =======*/
+#page1 #content .col_1 {width:31%;}
+#page1 #content .col_2 { width:39%;}
+#page1 #content .col_3 { width:29%;}
+
+#page1 #content .col_2 .column1 { width:72px;}
+#page1 #content .col_2 .column2 { float:none; padding-left:72px;}
+
+/*======= index-1.html =======*/
+#page2 #content .col_1 {width:70%;}
+#page2 #content .col_2 { width:29%;}
+
+#page2 #content .col_1 .column1 { width:52%;}
+#page2 #content .col_1 .column2 { width:48%;}
+
+/*======= index-2.html =======*/
+#page3 #content .col_1 {width:37%;}
+#page3 #content .col_2 { width:33%;}
+#page3 #content .col_3 { width:29%;}
+
+#page3 #content .col_1 .column1 { width:72px;}
+#page3 #content .col_1 .column2 { float:none; padding-left:72px;}
+
+/*======= index-3.html =======*/
+#page4 #content .col_1 {width:70%;}
+#page4 #content .col_2 { width:29%;}
+
+#page4 #content .col_1 .column1 { width:55%;}
+#page4 #content .col_1 .column2 { width:45%;}
+
+/*======= index-4.html =======*/
+#page5 #content .col_1 {width:50%;}
+#page5 #content .col_2 { width:49%;}
+
+#page5 #content .col_1 .column1 { width:72px;}
+#page5 #content .col_1 .column2 { float:none; padding-left:72px;}
+#page5 #content .col_2 .column1 { width:72px;}
+#page5 #content .col_2 .column2 { float:none; padding-left:72px;}
+
+/*======= index-5.html =======*/
+#page6 #content .col_1 {width:30%;}
+#page6 #content .col_2 { width:40%;}
+#page6 #content .col_3 { width:29%;}
+
+#page6 #content .col_1 .column1 { width:72px;}
+#page6 #content .col_1 .column2 { float:none; padding-left:72px;}
+
+/*=========================*/
+
+
+#footer {height:50px;}
